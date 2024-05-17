@@ -28,3 +28,5 @@ BEFORE FIRST USE IT IS IMPORTANT TO CHECK IF ALL DIRECTORIES ARE AS THEY SHOULD 
    https://github.com/mkellenbe/ORC/blob/9fb0540066d2921681027f78e426e502fb915886/Decommissioning.py#L53
    https://github.com/mkellenbe/ORC/blob/9fb0540066d2921681027f78e426e502fb915886/Decommissioning.py#L111
    https://github.com/mkellenbe/ORC/blob/9fb0540066d2921681027f78e426e502fb915886/Decommissioning.py#L164
+
+   Absolute paths can also be transformed into relative paths in future versions, but there was some trouble with this in the current version, thus the complication.
