@@ -14,6 +14,7 @@ BEFORE FIRST USE IT IS IMPORTANT TO CHECK IF ALL DIRECTORIES ARE AS THEY SHOULD 
 
 This is the used tree structure:
 
+'''bash
 C:.
 ├───databases
 ├───landbosse
@@ -22,3 +23,4 @@ C:.
 │   ├───LandBOSSE-2.5.0
 │   └───output
 └───__pycache__
+'''
