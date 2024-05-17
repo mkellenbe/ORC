@@ -495,7 +495,7 @@ class CAPEX():
         # The directory has to be replaced when run elsewhere
         os.chdir("landbosse\LandBOSSE-2.5.0")
         # The main.py file runs the model 
-        os.system(r"python main.py -i C:\Users\maxik\Desktop\ETH\Bachelorarbeit\Code\LCOE_model\landbosse\input -o C:\Users\maxik\Desktop\ETH\Bachelorarbeit\Code\LCOE_model\landbosse\output")
+        os.system(r"python main.py -i C:\Users\maxik\Desktop\ETH\Bachelorarbeit\Code\LCOE_model_final_version\landbosse\input -o C:\Users\maxik\Desktop\ETH\Bachelorarbeit\Code\LCOE_model_final_version\landbosse\output")
 
     def currentValue(wage, ISO, year):
         """
@@ -530,7 +530,7 @@ class CAPEX():
             Total_cost_BOSSE: the total cost of all work and components needed for the balance of system
         """
         # First we specify the directory in which the output files are located at and then we open the newest directory 
-        os.chdir("..\output")
+        os.chdir(r"C:\Users\maxik\Desktop\ETH\Bachelorarbeit\Code\LCOE_model_final_version\landbosse\output")
         # List all subdirectories
         all_subdirs = [d for d in os.listdir('.') if os.path.isdir(d)]
         # Find the latest subdirectory based on modification time
