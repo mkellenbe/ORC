@@ -11,3 +11,14 @@ WTDCSM: https://gitlab.windenergy.dtu.dk/TOPFARM/TopFarm2/-/blob/master/topfarm/
 The model's tools and their functionality are described shortly in the ORC instructions.ipynb Jupyter notebook. 
 
 BEFORE FIRST USE IT IS IMPORTANT TO CHECK IF ALL DIRECTORIES ARE AS THEY SHOULD BE AND IF THE FILES ARE ACCESSED RIGHT!!
+
+This is the used tree structure:
+
+C:.
+├───databases
+├───landbosse
+│   ├───input
+│   │   └───project_data
+│   ├───LandBOSSE-2.5.0
+│   └───output
+└───__pycache__
